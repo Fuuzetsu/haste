@@ -40,4 +40,4 @@ main = do
                     }
          let key = "228eacb0a1dc707cbc0c7e290c08e799"
          Response _ _ _ fin <- runResourceT $ httpLbs (urlEncodedBody (fields key src) req3) manager
-         liftIO $ L.putStr fin
+         liftIO $ L.putStrLn fin
