@@ -7,7 +7,6 @@ import Network.HTTP.Base (urlEncodeVars)
 import Data.Char (toLower)
 
 import Data.Conduit
-import Data.Conduit.Binary (sinkFile)
 
 import System.Environment
 import System.IO
